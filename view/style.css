@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chat p{
+    margin: 10px;
+    font-size: 1.4rem;
+}
+h1{
+    margin: 0;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 650px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.ui{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.ui input:nth-child(1){
+    width: 20%;
+}
+.ui input:nth-child(2){
+    width: 70%;
+}
